@@ -1,22 +1,28 @@
 body {
   font-family: sans-serif;
- background-image: url("../images/lake.jpg");
+  background-image: url("../images/laptop.jpg");
  background-repeat: no-repeat;
  background-size: cover;
+
 
 }
 
 .quizContainer {
-  height: 330px;
-  width: 100px;
+
+  height: 300px;
+  width: 600px;
   position: absolute;
-  top: 50%;
+  top: 25%;
   bottom: 50%;
+  right: 30%;
+  left: 30%;
   transform:rotateX(-50%) rotateY(-50%);
-  background: rgba(10.5, 225, 225, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   padding: 20px;
-  border: 2px solid #127BBF;
+  border: 1px solid #000000;
+  border-radius: 20px;
   box shadow: 0 0 8px 3px #fff;
+
 }
 
 h1 {
@@ -24,24 +30,33 @@ h1 {
   text-align: center;
   font-size: 36px;
   text-transform: uppercase;
-  color: #17A4FF;
+  color: #000000;
+}
+
+.paragraph {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+
 }
 
 #button {
   border: none;
   outline: none;
-  background: rgba(10.5, 25, 255, 0.5);
+  background: rgba(5, 15, 5, 15);
   width: 100px;
   height: 35px;
   border-radius: 20px;
   cursor: pointer;
   float: right;
   margin: 10px;
+  text-align: center;
+  color: #fff;
 }
 
 #button:hover {
-  background: #1593E5;
-  color:#27FF57;
+  background: #000000;
+  color:#fff;
 }
 
 
