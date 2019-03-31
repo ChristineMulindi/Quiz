@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+ background-image: url("../images/lake.jpg");
+
+
+}
+
+.container {
+  background-image: url("../images/computer.jpg");
+
+}
+
+
+.col-md-12 {
+  background-image: url("../images/computer.jpg");
+}
+
+#after_submit {
+  visibility: hidden;
+}
