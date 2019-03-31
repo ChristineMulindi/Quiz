@@ -1,19 +1,28 @@
 body {
   font-family: sans-serif;
  background-image: url("../images/lake.jpg");
-
-
-}
-
-.container {
-  background-image: url("../images/computer.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
 
 }
 
+.quizContainer {
+  height: 330px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform:rotateX(-50%) rotateY(-50%);
+  background: rgba(255, 225, 225, 0.5);
+  padding: 20px;
+  border: 2 px solid #127BBF;
+  box shadow: 0 0 8px 3px #fff;
 
-.col-md-12 {
-  background-image: url("../images/computer.jpg");
 }
+
+
+
+
 
 #after_submit {
   visibility: hidden;
