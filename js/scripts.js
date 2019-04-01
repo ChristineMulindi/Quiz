@@ -1,3 +1,15 @@
+$(document).ready(function(){
+  // function kiki(){
+  //   $(".paragraph").show();
+  //   $("#hide").hide();
+  // }
+  $('button#hide').click(function(){
+    $(".paragraph").show();
+    $("button#hide").hide();
+  });
+});
+
+
 function check() {
 
   var question1 = document.test.question1.value;
@@ -47,7 +59,7 @@ function check() {
 
   var percentage = (correct / 10) * percent;
 
-  var messages = ["Excellent!", "Fair", "Poor, you need to retake the test"];
+  var messages = ["Excellent!", "Fair", "Poor, you need to retake the test!"];
 
   var range;
   if (correct < 5) {
@@ -64,7 +76,5 @@ function check() {
 
   document.getElementById("message").innerHTML = messages[range];
   document.getElementById("number_correct").innerHTML = " You got " + correct + " correct. Which is " + percentage + "%.";
-
-
 
 }
