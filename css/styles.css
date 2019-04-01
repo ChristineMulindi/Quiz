@@ -34,10 +34,11 @@ h1 {
   text-align: center;
 }
 
-#hide{
+#hide {
   text-align: center;
   border-radius: 20px;
 }
+
 #wrapper {
   background-color: rgba(0, 15, 0);
   text-decoration: none;
@@ -53,7 +54,8 @@ h1 {
   background: #000000;
   color: #fff;
 }
-#wrapper-submitted{
+
+#wrapper-submitted {
   background-color: green;
   text-decoration: none;
   border-radius: 30px;
@@ -63,7 +65,8 @@ h1 {
   text-align: center;
   color: #fff;
 }
-#wrapper-submitted:hover{
+
+#wrapper-submitted:hover {
   background: #000000;
   color: #fff;
 }
@@ -94,7 +97,6 @@ h1 {
   background-image: url("../images/back.png");
 }
 
-
 #after_submit {
   visibility: hidden;
 }
@@ -113,6 +115,38 @@ h1 {
   background-color: #000000;
   color: white;
 }
-input{
 
+@media only screen and (max-width: 768px) {
+  .quizContainer {
+    height: 500px;
+    width: 300px;
+    position: relative;
+    top: 5%;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+    transform: rotateX(-50%) rotateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box shadow: 0 0 8px 3px #fff;
+    text-align: center;
+  }
+
+  #wrapper {
+    background-color: red;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 5%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #wrapper:hover {
+    background: #000000;
+    color: red;
+  }
+}
 }

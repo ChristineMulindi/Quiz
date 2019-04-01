@@ -1,9 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function() {
   // function kiki(){
   //   $(".paragraph").show();
   //   $("#hide").hide();
   // }
-  $('button#hide').click(function(){
+  $('button#hide').click(function() {
     $(".paragraph").show();
     $("button#hide").hide();
   });
@@ -73,8 +73,6 @@ function check() {
   }
 
   document.getElementById("after_submit").style.visibility = "visible";
-
-
   document.getElementById("message").innerHTML = messages[range];
   document.getElementById("number_correct").innerHTML = " You got " + correct + " correct. Which is " + percentage + "%.";
 
