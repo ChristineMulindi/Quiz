@@ -90,12 +90,10 @@ h1 {
 .darkred {
   background-color: #7F0000;
   color: white;
+  text-align: left;
+  background-image: url("../images/back.png");
 }
 
-.lightred {
-  background-color: #FF0000;
-  color: white;
-}
 
 #after_submit {
   visibility: hidden;
@@ -114,4 +112,7 @@ h1 {
 .darkness {
   background-color: #000000;
   color: white;
+}
+input{
+
 }
