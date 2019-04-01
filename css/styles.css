@@ -1,14 +1,11 @@
 body {
   font-family: sans-serif;
   background-image: url("../images/laptop.jpg");
- background-repeat: no-repeat;
- background-size: cover;
-
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quizContainer {
-
   height: 300px;
   width: 600px;
   position: absolute;
@@ -16,13 +13,12 @@ body {
   bottom: 50%;
   right: 30%;
   left: 30%;
-  transform:rotateX(-50%) rotateY(-50%);
+  transform: rotateX(-50%) rotateY(-50%);
   background: rgba(255, 255, 255, 0.5);
   padding: 20px;
   border: 1px solid #000000;
   border-radius: 20px;
   box shadow: 0 0 8px 3px #fff;
-
 }
 
 h1 {
@@ -36,28 +32,36 @@ h1 {
 .paragraph {
   font-size: 20px;
   text-align: center;
-  color: #000000;
-
 }
 
-#button {
-  border: none;
-  outline: none;
-  background: rgba(5, 15, 5, 15);
-  width: 100px;
-  height: 35px;
-  border-radius: 20px;
+#wrapper {
+  background-color: rgba(0, 15, 0, 15);
+text-decoration: none;
+  border-radius: 30px;
   cursor: pointer;
-  float: right;
-  margin: 10px;
+ margin-left: 45%;
+padding: 5px;
   text-align: center;
   color: #fff;
 }
 
-#button:hover {
+#wrapper:hover {
   background: #000000;
-  color:#fff;
+  color: #fff;
 }
+
+.jumbotron {
+  text-align: center;
+}
+
+.panel-title{
+  text-align: center;
+}
+
+.panel-body {
+  text-align: center;
+}
+
 
 
 #after_submit {
