@@ -74,6 +74,7 @@ function check() {
 
   document.getElementById("after_submit").style.visibility = "visible";
 
+
   document.getElementById("message").innerHTML = messages[range];
   document.getElementById("number_correct").innerHTML = " You got " + correct + " correct. Which is " + percentage + "%.";
 
