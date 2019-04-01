@@ -43,22 +43,26 @@ function check() {
     correct++;
   }
 
-var messages = ["Excellent!", "Fair", "Poor, you need to retake the test"];
+  var percent = 100;
 
-var range;
-if(correct < 5) {
-  range = 2;
-}
-if (correct > 5 && correct < 8) {
-  range = 1;
-}
-if (correct > 8) {
-  range = 0;
-}
+  var percentage = (correct / 10) * percent;
+
+  var messages = ["Excellent!", "Fair", "Poor, you need to retake the test"];
+
+  var range;
+  if (correct < 5) {
+    range = 2;
+  }
+  if (correct > 5 && correct < 8) {
+    range = 1;
+  }
+  if (correct > 8) {
+    range = 0;
+  }
 
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("message").innerHTML = messages[range];
-  document.getElementById("number_correct").innerHTML = " You got " + correct + " correct.";
+  document.getElementById("number_correct").innerHTML = " You got " + correct + " correct. Which is " + percentage + "%.";
 
 }
