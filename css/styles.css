@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
   background-image: url("../images/laptop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
 }
 
 .quizContainer {
@@ -36,11 +36,11 @@ h1 {
 
 #wrapper {
   background-color: rgba(0, 15, 0, 15);
-text-decoration: none;
+  text-decoration: none;
   border-radius: 30px;
   cursor: pointer;
- margin-left: 45%;
-padding: 5px;
+  margin-left: 45%;
+  padding: 5px;
   text-align: center;
   color: #fff;
 }
@@ -50,20 +50,42 @@ padding: 5px;
   color: #fff;
 }
 
+
+
 .jumbotron {
   text-align: center;
 }
 
-.panel-title{
+.panel-title {
   text-align: center;
+  color: black;
+}
+
+.panel-heading {
+background-color: black;
+color: black;
 }
 
 .panel-body {
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
+.darkred {
+  background-color: #7F0000;
+  color: white;
+}
 
+.lightred {
+  background-color: #FF0000;
+  color: white;
+}
 
 #after_submit {
   visibility: hidden;
+}
+
+.darkness{
+  background-color: #000000;
+  color: white;
 }
