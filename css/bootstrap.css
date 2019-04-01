@@ -5457,20 +5457,23 @@ button.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
+
 }
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  font-size: 20px;
+
 }
 .panel-heading > .dropdown .dropdown-toggle {
-  color: inherit;
+  color: black;
 }
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 20px;
   color: inherit;
 }
 .panel-title > a,
@@ -5479,6 +5482,7 @@ button.list-group-item-danger.active:focus {
 .panel-title > small > a,
 .panel-title > .small > a {
   color: inherit;
+  border-color: black;
 }
 .panel-footer {
   padding: 10px 15px;
