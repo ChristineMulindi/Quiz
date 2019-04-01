@@ -1,8 +1,6 @@
 body {
   font-family: sans-serif;
   background-image: url("../images/laptop.jpg");
-
-
 }
 
 .quizContainer {
@@ -19,6 +17,7 @@ body {
   border: 1px solid #000000;
   border-radius: 20px;
   box shadow: 0 0 8px 3px #fff;
+  text-align: center;
 }
 
 h1 {
@@ -30,12 +29,17 @@ h1 {
 }
 
 .paragraph {
+  display: none;
   font-size: 20px;
   text-align: center;
 }
 
+#hide{
+  text-align: center;
+  border-radius: 20px;
+}
 #wrapper {
-  background-color: rgba(0, 15, 0, 15);
+  background-color: rgba(0, 15, 0);
   text-decoration: none;
   border-radius: 30px;
   cursor: pointer;
@@ -49,8 +53,20 @@ h1 {
   background: #000000;
   color: #fff;
 }
-
-
+#wrapper-submitted{
+  background-color: green;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 30%%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+}
+#wrapper-submitted:hover{
+  background: #000000;
+  color: #fff;
+}
 
 .jumbotron {
   text-align: center;
@@ -62,8 +78,8 @@ h1 {
 }
 
 .panel-heading {
-background-color: black;
-color: black;
+  background-color: black;
+  color: black;
 }
 
 .panel-body {
@@ -85,7 +101,17 @@ color: black;
   visibility: hidden;
 }
 
-.darkness{
+#message {
+  font-size: 20px;
+  text-align: center;
+}
+
+#number_correct {
+  font-size: 20px;
+  text-align: center;
+}
+
+.darkness {
   background-color: #000000;
   color: white;
 }
