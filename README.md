@@ -15,11 +15,11 @@ JavaScript Quiz is a test that determines if you know and are good in JavaScript
 ## BDD
 This app is therefore expected to work as following:
 
-| BEHAVIOUR              | INPUT         | OUTPUT                  |
-| -----------------------|:-------------:| -----------------------:|
-|     A correct answer   |    A          |    You scored 1         |
-| Two sides are equal    |    B          |    You scored 0         |
-| Calculating percentage |   7           |    70%                  |
+| BEHAVIOR                 |  INPUT        | OUTPUT                  |
+| -------------------------|:-------------:| -----------------------:|
+|   A correct answer       |    A          |    You scored 1         |
+|   A wrong answer         |    B          |    You scored 0         |
+|   Calculating percentage |    7          |    70%                  |
 
 ## Technologies Used
 * HTML
